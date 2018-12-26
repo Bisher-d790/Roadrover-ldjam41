@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: f028370d87249476eb8a5a388d8eef49
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body
+    100002: Bottom_Block
+    100004: Bottom_Block1
+    100006: Brackets
+    100008: Gears
+    100010: HousingFront
+    100012: LatchSide
+    100014: Lense
+    100016: LenseMag
+    100018: Light_Base
+    100020: Light_Mount
+    100022: Mirror
+    100024: //RootNode
+    100026: Outer_Brackets
+    100028: Pressure_Guage
+    100030: Steam_tank
+    100032: Top_Deco
+    100034: Top_Deco1
+    400000: Body
+    400002: Bottom_Block
+    400004: Bottom_Block1
+    400006: Brackets
+    400008: Gears
+    400010: HousingFront
+    400012: LatchSide
+    400014: Lense
+    400016: LenseMag
+    400018: Light_Base
+    400020: Light_Mount
+    400022: Mirror
+    400024: //RootNode
+    400026: Outer_Brackets
+    400028: Pressure_Guage
+    400030: Steam_tank
+    400032: Top_Deco
+    400034: Top_Deco1
+    2100000: Light
+    2100002: Camera_Casing
+    2100004: Lense_Casing
+    2300000: Body
+    2300002: Bottom_Block
+    2300004: Bottom_Block1
+    2300006: Brackets
+    2300008: Gears
+    2300010: HousingFront
+    2300012: LatchSide
+    2300014: Lense
+    2300016: LenseMag
+    2300018: Light_Base
+    2300020: Light_Mount
+    2300022: Mirror
+    2300024: Outer_Brackets
+    2300026: Pressure_Guage
+    2300028: Steam_tank
+    2300030: Top_Deco
+    2300032: Top_Deco1
+    3300000: Body
+    3300002: Bottom_Block
+    3300004: Bottom_Block1
+    3300006: Brackets
+    3300008: Gears
+    3300010: HousingFront
+    3300012: LatchSide
+    3300014: Lense
+    3300016: LenseMag
+    3300018: Light_Base
+    3300020: Light_Mount
+    3300022: Mirror
+    3300024: Outer_Brackets
+    3300026: Pressure_Guage
+    3300028: Steam_tank
+    3300030: Top_Deco
+    3300032: Top_Deco1
+    4300000: Mirror
+    4300002: Steam_tank
+    4300004: Pressure_Guage
+    4300006: Light_Mount
+    4300008: Light_Base
+    4300010: Body
+    4300012: Gears
+    4300014: Brackets
+    4300016: LatchSide
+    4300018: Outer_Brackets
+    4300020: LenseMag
+    4300022: Bottom_Block
+    4300024: HousingFront
+    4300026: Top_Deco
+    4300028: Lense
+    4300030: Top_Deco1
+    4300032: Bottom_Block1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
