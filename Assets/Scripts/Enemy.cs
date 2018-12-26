@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] private GameObject player;
-    [SerializeField] private GameObject[] subobjectsToClip;
-    [SerializeField] private float clipAfterDistance;
-    private bool isClipped;
+    //[SerializeField] private GameObject player;
+    //[SerializeField] private GameObject[] subobjectsToClip;
+    //[SerializeField] private float clipAfterDistance;
+    //private bool isClipped;
 
     [SerializeField] private int DamageAmount = 1;
     [SerializeField] private float Health = 1;
@@ -22,8 +22,8 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
-        player = GameObject.FindGameObjectWithTag("Player");
-        isClipped = false;
+        //player = gm.GetPlayer();
+        //isClipped = false;
     }
 
     // Update is called once per frame
@@ -43,23 +43,26 @@ public class Enemy : MonoBehaviour
 
         }
 
-        if(player)
-        if((player.transform.position - this.transform.position).magnitude >= clipAfterDistance)
-        {
-            if (!isClipped)
-            {
-                foreach (GameObject obj in subobjectsToClip)
-                {
-                    obj.SetActive(false);
-                }
-            }
-        }else if (isClipped)
-        {
-            foreach (GameObject obj in subobjectsToClip)
-            {
-                obj.SetActive(true);
-            }
-        }
+        //if (player)
+        //{
+        //    if ((player.transform.position - this.transform.position).magnitude >= clipAfterDistance)
+        //    {
+        //        if (!isClipped)
+        //        {
+        //            foreach (GameObject obj in subobjectsToClip)
+        //            {
+        //                obj.SetActive(false);
+        //            }
+        //        }
+        //    }
+        //    else if (isClipped)
+        //    {
+        //        foreach (GameObject obj in subobjectsToClip)
+        //        {
+        //            obj.SetActive(true);
+        //        }
+        //    }
+        //}
     }
 
 

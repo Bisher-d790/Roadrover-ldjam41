@@ -71,6 +71,11 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
+    public GameObject GetPlayer()
+    {
+        return Player;
+    }
+
 
 }
 
